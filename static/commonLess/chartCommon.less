@@ -1,1 +1,10 @@
-@nice-blue: #5B83AD;
+.fadeIn(@space) {
+  opacity: 1;
+  transform: translate3d(@space, 0, 0);
+}
+
+.fadeOut(@space) {
+  opacity: 0;
+  transform: translate3d(-@space, 0, 0);
+}
+

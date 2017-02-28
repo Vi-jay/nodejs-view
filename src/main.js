@@ -12,7 +12,6 @@ const router = new VueRouter({
     linkActiveClass: 'active',
     routes
 });
-
 router.push('/index');
 
 new Vue({
